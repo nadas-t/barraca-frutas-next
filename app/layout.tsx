@@ -14,9 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className="bg-gradient-to-b from-orange-50 to-yellow-100 min-h-screen flex flex-col">
+      <body className="bg-gradient-to-br from-gray-50 via-white to-gray-50 min-h-screen flex flex-col">
         <Header />
-        <main className="flex-1 container mx-auto p-6">{children}</main>
+        <main className="flex-1">{children}</main>
         <Footer />
       </body>
     </html>
